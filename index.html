@@ -10,15 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Corp de la calculatrice -->
     <div id="calculate-body">
         <h1>Web Calculator</h1>
+
+        <!-- Contour de l'ecran -->
         <div id="circle-input1">
+
+            <!-- Ecran de la calculatrice -->
             <div id="circle-input">
                 <span id="screen"></span>
             </div>
         </div>
 
-
+        <!-- Div bouton -->
         <div id="button">
             <input type="button" id="7" value="7" onclick="button(7)"/>
             <input type="button" id="8" value="8" onclick="button(8)"/>
@@ -32,15 +38,17 @@
             <input type="button" id="2" value="2" onclick="button(2)"/>
             <input type="button" id="3" value="3" onclick="button(3)"/>
 
+            <!-- Bouton égale -->
             <div id="solo-egal">
                 <input type="button" id="-" value="-" onclick="buttonSoustraction()"/>
             </div>
 
-
+            <!-- Bouton nombre 0 -->
             <div id="zeroSolo">
                 <input type="button" id="0" value="0" onclick="button(0)">
             </div>
 
+            <!-- Bouton Reset, Addition, Soustraction -->
             <input type="button" id="reset" value="C" onclick="buttonReset()"/>
             <input type="button" id="+" value="+" onclick="buttonAddition()"/>
             <input type="button" id="=" value="=" onclick="buttonEgale()"/>
