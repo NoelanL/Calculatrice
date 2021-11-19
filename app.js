@@ -18,6 +18,7 @@ function  buttonModulo(){
 }
 function buttonEgale(){
     document.getElementById('screen').innerHTML = eval(document.getElementById('screen').innerHTML);
+    console.log("Le resultat de votre calcul est de " + document.getElementById('screen').innerHTML);
 }
 
 
