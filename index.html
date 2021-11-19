@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="styleSheets.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calculate-body">
+        <h1>Web Calculator</h1>
+        <div id="circle-input1">
+            <div id="circle-input">
+                <span id="screen"></span>
+            </div>
+        </div>
+
+
+        <div id="button">
+            <input type="button" id="7" value="7" onclick="button(7)"/>
+            <input type="button" id="8" value="8" onclick="button(8)"/>
+            <input type="button" id="9" value="9" onclick="button(9)"/>
+            <input type="button" id="%" value="%" onclick="buttonModulo()"/>
+            <input type="button" id="4" value="4" onclick="button(4)"/>
+            <input type="button" id="5" value="5" onclick="button(5)"/>
+            <input type="button" id="6" value="6" onclick="button(6)"/>
+            <input type="button" id="*" value="X" onclick="buttonMultiplication()"/>
+            <input type="button" id="1" value="1" onclick="button(1)"/>
+            <input type="button" id="2" value="2" onclick="button(2)"/>
+            <input type="button" id="3" value="3" onclick="button(3)"/>
+
+            <div id="solo-egal">
+                <input type="button" id="-" value="-" onclick="buttonSoustraction()"/>
+            </div>
+
+
+            <div id="zeroSolo">
+                <input type="button" id="0" value="0" onclick="button(0)">
+            </div>
+
+            <input type="button" id="reset" value="C" onclick="buttonReset()"/>
+            <input type="button" id="+" value="+" onclick="buttonAddition()"/>
+            <input type="button" id="=" value="=" onclick="buttonEgale()"/>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

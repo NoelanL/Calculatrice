@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#calculate-body{
+    background-color: #78a3e7;
+    width: 295px;
+    margin-top: 10em;
+    padding: 0 1em 1.5em 1em;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(128, 128, 128, 0.4) 5px 5px,
+                rgba(128, 128, 128, 0.3) 10px 10px,
+                rgba(128, 128, 128, 0.2) 15px 15px,
+                rgba(128, 128, 128, 0.1) 20px 20px,
+                rgba(128, 128, 128, 0.05) 25px 25px;
+}
+
+h1{
+    font-size: 17px;
+    color: lightgrey;
+    font-family: "Roboto Light", sans-serif;
+}
+
+#circle-input1{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+#circle-input{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    background-color: #8eae85;
+    border-top: 13px solid #478434;
+    border-right: 13px solid #478434;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 278px;
+    font-size: 35px;
+    text-align: end;
+    font-family: 'Genos', sans-serif;
+}
+
+#button{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c4380;
+    color: white;
+    height: 50px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+input:hover{
+    background-color: rgba(44, 111, 201, 0.65);
+}
+
+#reset{
+    height: 50px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#zeroSolo{
+    width: 100%;
+    margin-left: 27%;
+}
+
+#\-{
+    height: 50px;
+    display: inline-block;
+}
+
+#\={
+    width: 134px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
